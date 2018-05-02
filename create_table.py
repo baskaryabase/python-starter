@@ -13,5 +13,4 @@ create_table = "CREATE TABLE IF NOT EXISTS items (name text PRIMARY KEY, price r
 cursor.execute(create_table)
 
 connection.commit()
-
 connection.close()
