@@ -85,7 +85,6 @@ class Item(Resource):
             try:
                 Item.update(updated_item)
             except:
-                raise
                 return {"message": "An error occurred updating the item."}
         return updated_item
 
